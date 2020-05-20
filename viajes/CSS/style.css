@@ -1,0 +1,74 @@
+body{
+  font-family: Arial;
+}
+.body{
+  padding: 60px 15px;
+}
+.NotoSansJP{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.title{
+  font-size: 2.5em;
+}
+.main-nav a{
+  width: 20%;
+  display: inline-block;
+}
+.main-header{
+  background-color:#E6E6FA;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-radius:4px;
+}
+.nav-link{
+  color:#A9A9A9;
+  margin-right: -4px;
+  text-decoration: none;
+}
+.text-center{
+  text-align:center;
+}
+.text-left{
+  text-align: left;
+}
+.color-text{
+  color:#A9A9A9;
+}
+.main-container{
+  min-height: 100vh;
+}
+.Lugares img{
+  width: 150px;
+}
+.Lugares h3{
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.card{
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 3px  rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.threeD{
+  text-shadow:1px 3px 0px #6b251d, 1px 13px 5px rgb(171,168,168);
+}
+
+.delay-1{
+  animation-delay:0.1s;
+  position:relative;
+  z-index:3;
+}
+.delay-2{
+  animation-delay:0.2s;
+  position:relative;
+  z-index:2
+}
+.delay-3{
+  animation-delay:0.3s;
+  position:relative;
+  z-index:1
+}
